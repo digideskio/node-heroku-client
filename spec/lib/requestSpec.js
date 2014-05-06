@@ -158,7 +158,7 @@ describe('request', function() {
     });
 
     it('rejects a promise when there is an error from an unexpected response', function(done) {
-      makeRequest('/apps', {}, null, { response: { statusCode: 404 } }).fail(function(err) {
+      makeRequest('/apps', {}, null, { response: { statusCode: 404 } }).then(null, function(err) {
         expect(err.message).toEqual('Expected response to be successful, got 404');
         done()
       });

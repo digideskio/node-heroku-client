@@ -14,13 +14,17 @@
     "heroku"
   ],
   "author": "Jonathan Clem",
-  "contributors": [{
-    "name": "Jonathan Clem"
-  }, {
-    "name": "Ray McDermott"
-  }, {
-    "name": "Bob Zoller"
-  }],
+  "contributors": [
+    {
+      "name": "Jonathan Clem"
+    },
+    {
+      "name": "Ray McDermott"
+    },
+    {
+      "name": "Bob Zoller"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jclem/node-heroku-client/issues"
@@ -29,11 +33,11 @@
     "jasmine-node": "~1.11.0"
   },
   "dependencies": {
-    "q": "~0.9.6",
-    "lazy.js" : "~0.3.2",
-    "memjs": "~0.6.0",
-    "inflection": "~1.2.6",
+    "bluebird": "^1.2.4",
     "concat-stream": "~1.1.0",
+    "inflection": "~1.2.6",
+    "lazy.js": "~0.3.2",
+    "memjs": "~0.6.0",
     "path-proxy": "~1.0"
   }
 }
